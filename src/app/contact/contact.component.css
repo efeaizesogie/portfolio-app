@@ -1,0 +1,152 @@
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px 96px;
+  border-radius: 5px;
+}
+
+.left h2 {
+  color: #eee;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.left h2 span {
+  color: #00adb5;
+}
+
+.left img {
+  width: 380px;
+  height: auto;
+}
+
+.right {
+  width: 50%;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  width: 100%;
+}
+
+.form-row .form-field {
+  width: 48%;
+}
+
+.form-row .form-field input,
+textarea {
+  display: flex;
+  width: 100%;
+  color: rgb(238, 238, 238);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+  padding: 16px 16px 16px 24px;
+  border: none;
+  outline: none;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 16px;
+  background: rgba(57, 62, 70, 0.5);
+}
+
+.input:focus {
+  border: none;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field label {
+  color: var(--Color-3, #eee);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+
+textarea {
+  min-height: 220px;
+  margin-bottom: 24px;
+}
+
+.btn {
+  display: flex;
+  padding: 10px 32px;
+  align-items: center;
+  cursor: pointer;
+  gap: 10px;
+  color: #eee;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  outline: none;
+}
+
+.btn-full {
+  border-radius: 24px;
+  background: var(--Color-3, #00adb5);
+}
+
+@media screen and (max-width: 1200px) {
+  .contact {
+    padding: 20px 40px;
+  }
+
+  .left img {
+    width: 340px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .left {
+    margin-bottom: 12px;
+  }
+
+  .left img {
+    width: 100%;
+  }
+
+  .right {
+    width: 100%;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row .form-field {
+    width: 100%;
+  }
+
+  .form-email {
+    margin-top: 12px;
+  }
+
+  .btn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,1 +1,131 @@
-/* You can add global styles to this file, and also import other style files */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&family=Poppins:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  background: #222831;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+nav {
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: var(--Color-3, #eee);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  transition: color 0.3s;
+}
+
+nav a:hover {
+  color: #00adb5;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Update styles for sections */
+
+/* Modern minimalist styling for theme switcher */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  transition: 0.4s;
+  border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2196f3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196f3;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 5px;
+  }
+
+  nav a {
+    margin: 0 5px;
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 10px;
+  }
+}
+
+/* Medium screens (e.g., tablets) */
+@media (max-width: 768px) {
+  nav {
+    padding: 10px;
+  }
+
+  nav a {
+    margin: 0 8px;
+    font-size: 16px;
+  }
+
+  .container {
+    padding: 20px;
+  }
+}

@@ -1,0 +1,14 @@
+<div class="about-me">
+  <div class="left">
+    <h2>About <span>me</span></h2>
+    <p>{{ bio }}</p>
+    <h4>Skills</h4>
+    <ul>
+      <li *ngFor="let skill of skills"><img [src]="skill" alt="" /></li>
+    </ul>
+  </div>
+  <div class="right">
+    <img src="./../../assets/svg/about-us.svg" alt="" />
+  </div>
+  <!-- Add more details as needed -->
+</div>

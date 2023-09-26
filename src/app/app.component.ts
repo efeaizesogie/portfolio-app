@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-app';
+  navMenuOpen: boolean = false;
+
+  openMenu() {
+    this.navMenuOpen = true;
+  }
+
+  closeMenu() {
+    this.navMenuOpen = false;
+  }
 }
