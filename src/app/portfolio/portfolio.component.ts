@@ -40,6 +40,20 @@ export class PortfolioComponent {
       demoLink: 'https://movie-box-hazel-one.vercel.app/',
       githubLink: 'https://github.com/efeaizesogie/movie-box',
     },
+    {
+      name: 'Redrag',
+      description: `A drag and drop gallery that let's user search for photos using their tags and change the arrangements of the images using drag and drop.`,
+      imageUrl: './../../assets/png/redrag.png',
+      demoLink: 'https://redrag.vercel.app/',
+      githubLink: 'https://github.com/efeaizesogie/redrag',
+    },
+    {
+      name: 'Todo App',
+      description: `I built this app to help me keep track of my daily activities and also to help me learn the fundamentals of Angular.`,
+      imageUrl: './../../assets/png/todo-app.png',
+      demoLink: `https://todo-app-efeaizesogie.vercel.app/`,
+      githubLink: 'https://github.com/efeaizesogie/Todo-app',
+    },
 
   ];
 
