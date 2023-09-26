@@ -54,6 +54,13 @@ export class PortfolioComponent {
       demoLink: `https://todo-app-efeaizesogie.vercel.app/`,
       githubLink: 'https://github.com/efeaizesogie/Todo-app',
     },
+    {
+      name: 'Calculator App',
+      description: `A simple calculator app built with html, css and javascript`,
+      imageUrl: './../../assets/png/calculator app.png',
+      demoLink: `https://soft-gaufre-2b5b35.netlify.app/`,
+      githubLink: 'https://github.com/efeaizesogie/calculator',
+    },
 
   ];
 
