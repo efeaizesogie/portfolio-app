@@ -34,11 +34,11 @@ export class PortfolioComponent {
       githubLink: 'https://github.com/efeaizesogie/Propell',
     },
     {
-      name: 'Propell',
-      description: `A platform that simplify complex task, empowering you to achieve more with less effort. Unleash your productivity potential, streamline collaboration, and gain insights that drive success.`,
-      imageUrl: './../../assets/png/propell.png',
-      demoLink: 'https://propell-ten.vercel.app/',
-      githubLink: 'https://github.com/efeaizesogie/Propell',
+      name: 'Movie App',
+      description: `This is a platform where you can get reviews for different movies and watch the trailer of the movie.`,
+      imageUrl: './../../assets/png/movie-box.png',
+      demoLink: 'https://movie-box-hazel-one.vercel.app/',
+      githubLink: 'https://github.com/efeaizesogie/movie-box',
     },
 
   ];
